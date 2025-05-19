@@ -7,7 +7,8 @@ A lightweight ASP.NET Core Web API designed to securely handle and forward reque
 ## Features
 
 - Secure API key protection  
-- Request forwarding for OpenAI endpoints (api/response)  
+- Request forwarding for OpenAI endpoints (api/response)
+- Integrated rate limits
 - Lightweight and high-performance  
 - Easy integration with C#, Unity, WPF, or other .NET clients  
 

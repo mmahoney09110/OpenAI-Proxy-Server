@@ -15,7 +15,7 @@ A lightweight ASP.NET Core Web API designed to securely handle and forward reque
 
 ## Why This Exists
 
-Embedding your OpenAI API key in a client-side application (like a game overlay) poses a security risk. This proxy server lets your client send requests without ever exposing your key.
+Embedding your OpenAI API key in a client-side application poses a security risk. This proxy server lets your client send requests without ever exposing your key.
 
 ---
 
@@ -73,7 +73,7 @@ curl -X POST https://YourDomain.example/api/response ^
 ```
 
 **Response**  
-Returns the raw OpenAI response object, which your client can parse and display.
+Returns the raw OpenAI response object, which your client can format and display.
 
 ---
 
@@ -103,5 +103,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- Built for the Elden Ring AI Companion Project  
 - Powered by .NET 9 and OpenAI  
